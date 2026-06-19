@@ -1,0 +1,16 @@
+{
+  "vatVerificationHeading": "VAT verification",
+  "vatNumberLabel": "VAT number",
+  "vatNumberPlaceholder": "Enter VAT Number",
+  "validateVatButton": "Validate",
+  "vatVerified": "Verified",
+  "vatVerifiedHeading": "VAT number verified",
+  "vatVerifiedSuccess": "Your VAT number is valid and has been applied to this order.",
+  "vatVerifiedForCompany": "Your VAT number is registered to {{company}} and has been applied to this order.",
+  "vatInvalid": "This VAT number could not be verified. Please check it and try again.",
+  "vatNumberRequired": "Please enter a VAT number before validating.",
+  "vatValidationRequired": "Please click Validate to verify your VAT number before continuing.",
+  "vatVerificationFailed": "Unable to verify your VAT number right now. Please try again.",
+  "blockProgressNotEnabled": "To block checkout until VAT is verified, enable blocking in Checkout behavior settings.",
+  "metafieldChangesAreNotSupported": "Cart metafield changes are not supported in this checkout."
+}

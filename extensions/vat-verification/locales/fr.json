@@ -1,0 +1,16 @@
+{
+  "vatVerificationHeading": "Vérification de la TVA",
+  "vatNumberLabel": "Numéro de TVA",
+  "vatNumberPlaceholder": "Saisir le numéro de TVA",
+  "validateVatButton": "Valider",
+  "vatVerified": "Vérifié",
+  "vatVerifiedHeading": "Numéro de TVA vérifié",
+  "vatVerifiedSuccess": "Votre numéro de TVA est valide et a été appliqué à cette commande.",
+  "vatVerifiedForCompany": "Votre numéro de TVA est enregistré au nom de {{company}} et a été appliqué à cette commande.",
+  "vatInvalid": "Ce numéro de TVA n'a pas pu être vérifié. Veuillez le vérifier et réessayer.",
+  "vatNumberRequired": "Veuillez saisir un numéro de TVA avant de valider.",
+  "vatValidationRequired": "Veuillez cliquer sur Valider pour vérifier votre numéro de TVA avant de continuer.",
+  "vatVerificationFailed": "Impossible de vérifier votre numéro de TVA pour le moment. Veuillez réessayer.",
+  "blockProgressNotEnabled": "Pour bloquer le paiement jusqu'à la vérification de la TVA, activez le blocage dans les paramètres de comportement du paiement.",
+  "metafieldChangesAreNotSupported": "Les modifications de métachamps de panier ne sont pas prises en charge dans cette commande."
+}

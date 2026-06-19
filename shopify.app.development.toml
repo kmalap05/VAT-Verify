@@ -1,0 +1,21 @@
+# Learn more about working with Shopify TOML files with Gadget at https://docs.gadget.dev/guides/plugins/shopify/advanced-topics/shopify-app-toml
+
+client_id = "8f0bc5e3327697c622a591f03517cb26"
+name = "VAT Verify Development"
+application_url = "https://vat-verify--development.gadget.app"
+embedded = true
+
+handle = "vat-verify-development"
+[auth]
+redirect_urls = [ "https://vat-verify--development.gadget.app/api/connections/auth/shopify/callback" ]
+
+[access_scopes]
+scopes = "write_orders, read_orders"
+
+[webhooks]
+api_version = "2026-04"
+
+[[webhooks.subscriptions]]
+compliance_topics = [ "customers/data_request", "customers/redact", "shop/redact" ]
+uri = "https://webhooks.gadget-services.net/shopify/v1?domain=vat-verify--development.gadget.app"
+topics = [ "shop/update", "app/uninstalled" ]

@@ -7,6 +7,6 @@ node_modules/
 extensions/**/dist
 extensions/**/node_modules
 extensions/**/generated
-shopify.app.*.toml
+# shopify.app.*.toml
 .env.*
 .shopify/

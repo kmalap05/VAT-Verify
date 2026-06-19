@@ -2,11 +2,14 @@
 
 client_id = "a2a6f2d383602baba1aa155869e7428e"
 name = "VAT Verify"
-application_url = "https://vat-verify.gadget.app/api/shopify/install-or-render"
+application_url = "https://vat-verify.gadget.app"
 embedded = true
 
 [auth]
 redirect_urls = [ "https://vat-verify.gadget.app/api/connections/auth/shopify/callback" ]
+
+[access_scopes]
+scopes = "write_orders, read_orders"
 
 [webhooks]
 api_version = "2026-04"
